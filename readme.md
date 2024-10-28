@@ -16,10 +16,17 @@ Docker Support: Containerized environment for easy deployment and scaling.
 # Run the project
 
 git clone https://github.com/yourusername/secure-mern-api.git
+
 cd secure-mern-api
+
 npm install
+
 DATABASE_URL=<your_database_url>
+
 JWT_SECRET=<your_jwt_secret>
+
 PORT=<your_server_port>
+
 npm start
+
 npm test
